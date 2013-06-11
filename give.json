@@ -11,9 +11,7 @@
       "search": "pluginname",
       "replace": "{{pluginname}}",
       "path": "custom-posts.php"
-    }
-  ],
-  "replacements": [
+    },
     {
       "search": "pluginname",
       "replace": "{{pluginname}}",
