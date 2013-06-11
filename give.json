@@ -10,14 +10,14 @@
     {
       "search": "pluginname",
       "replace": "{{pluginname}}",
-      "name": "custom-posts.php"
+      "path": "custom-posts.php"
     }
   ],
   "replacements": [
     {
       "search": "pluginname",
       "replace": "{{pluginname}}",
-      "name": "single-custom-posts.php"
+      "path": "single-custom-posts.php"
     }
   ] 
 }
