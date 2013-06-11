@@ -1,0 +1,23 @@
+{
+  "variables": [
+    {
+      "name": "pluginname",
+      "question": "Please specify a Pluginname",
+      "default": "Custom Post"
+    }
+  ],
+  "replacements": [
+    {
+      "search": "Pluginname",
+      "replace": "{{pluginname}}",
+      "name": "custom-posts.php"
+    }
+  ],
+  "replacements": [
+    {
+      "search": "Pluginname",
+      "replace": "{{pluginname}}",
+      "name": "single-custom-posts.php"
+    }
+  ] 
+}
