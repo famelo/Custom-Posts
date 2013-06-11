@@ -8,14 +8,14 @@
   ],
   "replacements": [
     {
-      "search": "Pluginname",
+      "search": "pluginname",
       "replace": "{{pluginname}}",
       "name": "custom-posts.php"
     }
   ],
   "replacements": [
     {
-      "search": "Pluginname",
+      "search": "pluginname",
       "replace": "{{pluginname}}",
       "name": "single-custom-posts.php"
     }
