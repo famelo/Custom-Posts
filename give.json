@@ -16,6 +16,10 @@
       "search": "pluginname",
       "replace": "{{pluginname}}",
       "path": "single-custom-posts.php"
-    }
+    },
+    {
+      "search": "single-custom-posts.php",
+      "replace": "single-{{ 'pluginname'|lower }}.php"
+    }      
   ] 
 }
