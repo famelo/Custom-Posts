@@ -16,14 +16,12 @@
       "search": "pluginname",
       "replace": "{{pluginname}}",
       "path": "single-custom-posts.php"
-    },
+    }
+  ],
+  "rename": [
     {
-      "search": "single-custom-posts.php",
-      "replace": "single-{{pluginname|lower}}.php"
-    },
-    {
-      "search": "cats = 43",
-      "replace": "cats = {{pluginname|lower}}"
-    }   
-  ] 
+      "source": "single-custom-posts.php",
+      "target": "single-{{pluginname|lower}}.php"
+    }
+  ]  
 }
