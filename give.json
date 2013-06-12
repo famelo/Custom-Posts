@@ -22,8 +22,9 @@
       "replace": "single-{{pluginname|lower}}.php"
     },
     {
-      "search": "cats = 43"
-      "replace": "cate = {{pluginname|lower}}"
-    }      
+      "search": "cats = 43",
+      "replace": "cats = {{pluginname|lower}}",
+      "path": "custom-posts.php"
+    }   
   ] 
 }
