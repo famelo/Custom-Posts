@@ -19,7 +19,7 @@
     },
     {
       "search": "single-custom-posts.php",
-      "replace": "single-{{ 'pluginname'|lower }}.php"
+      "replace": "single-{{pluginname|lower}}.php"
     }      
   ] 
 }
