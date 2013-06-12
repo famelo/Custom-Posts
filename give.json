@@ -3,7 +3,7 @@
     {
       "name": "pluginname",
       "question": "Please specify a Pluginname",
-      "default": "Custom Post"
+      "default": "Custom-Post"
     }
   ],
   "replacements": [
@@ -20,6 +20,10 @@
     {
       "search": "single-custom-posts.php",
       "replace": "single-{{pluginname|lower}}.php"
+    },
+    {
+      "search": "cats = 43"
+      "replace": "cate = {{pluginname|lower}}"
     }      
   ] 
 }

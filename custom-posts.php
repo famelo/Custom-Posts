@@ -6,6 +6,9 @@ Description: this is a simple plugin wich allows you to create an use some custo
 Author: Sven Steinker
 Author URI: http://sven-steinker.de/
 License: GPLv2
+
+right here is the dev center. cats = 43
+
 */
 
 add_action( 'init', 'create_pluginname' );
