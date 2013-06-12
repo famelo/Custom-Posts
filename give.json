@@ -23,8 +23,7 @@
     },
     {
       "search": "cats = 43",
-      "replace": "cats = {{pluginname|lower}}",
-      "path": "custom-posts.php"
+      "replace": "cats = {{pluginname|lower}}"
     }   
   ] 
 }
