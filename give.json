@@ -22,6 +22,10 @@
     {
       "source": "single-custom-posts.php",
       "target": "single-{{pluginname|lower}}.php"
+    },
+    {
+      "source": "custom-posts-Template.php",
+      "target": "{{pluginname|lower}}-Template.php"
     }
   ]  
 }
